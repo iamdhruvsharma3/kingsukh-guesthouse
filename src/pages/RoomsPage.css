@@ -1,0 +1,52 @@
+.room-page {
+  padding: 20px; /* Padding for the room page */
+}
+.room-cards-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between; /* Space cards evenly */
+  padding: 20px;
+}
+
+
+
+.booking-testimonials-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between the items */
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px; /* Padding around the container */
+}
+
+.booking-form, .testimonials {
+  flex: 1; /* Allow both components to take equal width */
+  margin: 10px; /* Add margin for spacing */
+  max-width: 45%; /* Set a max width to prevent them from being too wide */
+}
+
+.booking-form {
+  background-color: #f9f9f9; /* Light background for the form */
+  padding: 20px; /* Padding for the form */
+  border-radius: 8px; /* Rounded corners */
+  min-height: 400px; /* Adjust this value as needed to match testimonials height */
+}
+
+.testimonials {
+  background-color: #f1f1f1; /* Light background for testimonials */
+  padding: 20px; /* Padding for the testimonials */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .booking-testimonials-container {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+
+  .booking-form, .testimonials {
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+}
+
+.page-title{
+  text-align: center;
+}

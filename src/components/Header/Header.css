@@ -1,0 +1,42 @@
+/* Navbar background */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  /* Navigation links */
+  .nav-link {
+    color: #1A1F71; /* Secondary color for links */
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #ffdd57; /* Primary color on hover */
+  }
+  
+  /* Brand logo */
+  .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Primary button */
+  .btn-primary {
+    background-color: #1A1F71; /* Pink primary color */
+    border-color: #0c0e31;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffdd57; /* Darker shade of pink for hover */
+  }
+  
+
+  .custom-nav {
+      margin-left: auto; /* Pushes nav items to the right */
+      display: flex; /* Ensures links are displayed in a row */
+    }
+
+.king{
+  color: #1A1F71;
+}

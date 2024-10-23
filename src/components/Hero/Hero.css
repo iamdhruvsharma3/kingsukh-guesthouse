@@ -1,0 +1,53 @@
+/* Hero Section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full-screen height */
+    background-image: url('../../assets/images/header.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    margin-top: -250px;
+    /* background: rgba(0, 0, 0, 0.5); Dark overlay to improve text readability */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  /* Hero Title */
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  /* Hero Subtitle */
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #dcdcdc;
+  }
+  
+  /* Hero Button */
+  .hero-button {
+    background-color: #1A1F71; /* Primary pink color */
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #ffdd57; /* Darker pink on hover */
+  }
+  

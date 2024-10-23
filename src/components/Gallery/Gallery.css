@@ -1,0 +1,16 @@
+/* src/components/Gallery/Gallery.css */
+
+.gallery {
+  margin: 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  color: #1A1F71; /* Primary pink color */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.carousel-item img {
+  height: 500px; /* Set a fixed height for the carousel images */
+  object-fit: cover; /* Cover the entire area */
+}

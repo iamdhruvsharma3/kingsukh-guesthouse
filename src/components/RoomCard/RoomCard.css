@@ -1,0 +1,68 @@
+/* Room Card Container */
+.room-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 1rem; /* Add margin for spacing */
+  flex: 1 1 300px; /* Allow flexibility */
+}
+
+.room-card:hover {
+  transform: scale(1.02);
+}
+
+/* Room Image */
+.room-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Room Info */
+.room-info {
+  padding: 1.5rem;
+}
+
+.room-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.room-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Room Footer (Price and Button) */
+.room-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Book Now Button */
+.room-button {
+  background-color: #1A1F71; /* Primary pink color */
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.room-button:hover {
+  background-color: #ffdd57; /* Darker pink on hover */
+}

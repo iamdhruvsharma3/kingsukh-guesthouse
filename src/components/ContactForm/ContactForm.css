@@ -1,0 +1,46 @@
+.contact-form {
+    background-color:#ffdd57; /* White background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem; /* Space above the contact form */
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 100px; /* Set a default height */
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #1A1F71; /* Primary pink color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #ffdd57; /* Darker pink on hover */
+  }
+  

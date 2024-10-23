@@ -1,0 +1,43 @@
+.testimonials {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem; /* Space above the testimonials */
+    color: #1A1F71;
+  }
+  
+  .testimonials-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1A1F71;
+  }
+  
+  .testimonials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Space between testimonial cards */
+  }
+  
+  .testimonial-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-feedback {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    color: #1A1F71;
+  }
+  
+  .testimonial-rating {
+    color: #1A1F71; /* Primary pink color for ratings */
+  }
+  
